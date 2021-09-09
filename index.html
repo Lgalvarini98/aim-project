@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Aim--Proyect</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div--button">
+            <button class="boton--start" id="buttonStart" onclick="startProgram(), startCountdown()">Start</button>
+        </div>
+
+        <p class="countdown div--button" id="countdown"></p>
+        
+        <div class="div--select">
+            <label for="selectDifficulty">Select Difficulty</label>
+            <select class="select--difficulty" name="selectDifficulty" id="selectDifficulty">
+                <option value="easy">Easy</option>
+                <option value="normal">Normal</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <div class="div--matriz">
+            <section class="section--matriz" id="sectionMatriz">
+                
+            </section>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
